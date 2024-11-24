@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://rbcui.onrender.com/api' });
 
 export const fetchUsers = () => API.get('/users');
 export const createUser = (data) => API.post('/users', data);
