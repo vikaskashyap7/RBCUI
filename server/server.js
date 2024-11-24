@@ -5,8 +5,8 @@ const cors = require('cors');
 require('dotenv').config();
 
 
-const roleRoutes = require('./routes/roleRoutes');
-const userRoutes = require('./routes/userRoutes');
+const roleRoutes = require('./Routes/roleRoutes');
+const userRoutes = require('./Routes/userRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
