@@ -35,6 +35,6 @@ Make sure you have the following installed:
 - **MongoDB** (ensure the MongoDB service is running locally)
 
 ### Clone the Repository
-`bash
+```bash
 git clone <repository-url>
 cd rbac-ui
